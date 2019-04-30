@@ -4,7 +4,7 @@ webpackHotUpdate("static/development/pages/index.js",{
 /*!************************!*\
   !*** ./pages/index.js ***!
   \************************/
-/*! no exports provided */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18,13 +18,34 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
-  }, "Welcome to the home page");
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, "Go to About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Home"), "Welcome to the home page");
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.1e3230ed5970f0a50c39.hot-update.js.map
+//# sourceMappingURL=index.js.805632fd586d9cefbd7b.hot-update.js.map
