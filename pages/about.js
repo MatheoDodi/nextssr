@@ -1,22 +1,29 @@
 import { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
-import Link from 'next/link';
+import Error from './_error';
 import Layout from '../components/Layout';
 
 class About extends Component {
   static async getInitialProps() {
     const res = await fetch('https://api.github.com/users/matthewdodi');
+    const statusCode = res.status > 200;
     const data = await res.json();
-    return { user: data };
+    return { user: data, statusCode };
   }
 
   render() {
     const { user } = this.props;
     return (
-      <Layout title="About">
-        <p>{user.bio}</p>
-        <img src={user.avatar_url} alt="Matthew Dodi" />
-      </Layout>
+      <>
+        {this.props.statusCode ? (
+          <Error />
+        ) : (
+          <>
+            <p>{user.bio}</p>
+            <img src={user.avatar_url} alt="Matthew Dodi" />
+          </>
+        )}
+      </>
     );
   }
 }

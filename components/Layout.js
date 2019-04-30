@@ -65,5 +65,19 @@ export default ({ children, title }) => (
         }
       `}
     </style>
+    <style global jsx>{`
+      @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+      #nprogress .bar {
+        background: red;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        font-size: 110%;
+        background: #fafafa;
+      }
+    `}</style>
   </div>
 );
