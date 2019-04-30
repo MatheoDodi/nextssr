@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MatthewDodi/nextssr#readme",
   "dependencies": {
     "next": "^8.1.0",
+    "nprogress": "^0.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
