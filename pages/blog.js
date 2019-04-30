@@ -5,7 +5,7 @@ export default () => (
   <Layout title="My Blog">
     <ul>
       <li>
-        <Link href="/post?title=react">
+        <Link as="/react-post" href="/post?title=react">
           <a>React Post</a>
         </Link>
       </li>
