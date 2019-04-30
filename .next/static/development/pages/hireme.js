@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/hireme.js"],{
 
 /***/ "./components/Layout.js":
 /*!******************************!*\
@@ -5481,21 +5481,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhireme&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Fhireme.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhireme&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Fhireme.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/hireme", function() {
+      var page = __webpack_require__(/*! ./pages/hireme.js */ "./pages/hireme.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/hireme.js */ "./pages/hireme.js", function() {
+          if(!next.router.components["/hireme"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/hireme.js */ "./pages/hireme.js")
+          next.router.update("/hireme", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -10683,10 +10683,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/hireme.js":
+/*!*************************!*\
+  !*** ./pages/hireme.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10697,53 +10697,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "/Users/matthew/Documents/All-Projects/nextssr/pages/index.js";
+var _jsxFileName = "/Users/matthew/Documents/All-Projects/nextssr/pages/hireme.js";
 
 
 
 
-var Index = function Index() {
+var HireMe = function HireMe() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Home",
+    title: "Hire Me",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "You can hire me at", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:matthew.dodi@gmail.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
-  }, "Go to About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Welcome to the home page"));
+  }, "matthew.dodi@gmail.com")));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (HireMe);
 
 /***/ }),
 
-/***/ 0:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************/
+/***/ 2:
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fhireme&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Fhireme.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fhireme&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Fhireme.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fhireme&absolutePagePath=%2FUsers%2Fmatthew%2FDocuments%2FAll-Projects%2Fnextssr%2Fpages%2Fhireme.js!./");
 
 
 /***/ }),
@@ -10759,5 +10753,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=hireme.js.map

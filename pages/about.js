@@ -1,14 +1,11 @@
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const About = () => (
-  <div>
-    <Link href="/">
-      <a>Back to Home</a>
-    </Link>
-    <h1>About</h1>
+  <Layout title="About">
     <p>A JavaScript programmer</p>
     <img src="/static/javascript-1.svg" height="200px" alt="" />
-  </div>
+  </Layout>
 );
 
 export default About;
