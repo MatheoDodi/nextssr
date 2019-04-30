@@ -17,10 +17,6 @@ export default ({ children, title }) => (
   <div className="root">
     <Head>
       <title>Nextssr</title>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
-      />
     </Head>
     <header>
       <Link href="/">
@@ -61,8 +57,7 @@ export default ({ children, title }) => (
         }
 
         header a:hover {
-          font-weight: bold;
-          color: lightgrey;
+          color: white;
         }
 
         footer {
@@ -70,16 +65,5 @@ export default ({ children, title }) => (
         }
       `}
     </style>
-    <style global jsx>{`
-      #nprogress .bar {
-        background: red;
-      }
-
-      body {
-        margin: 0;
-        font-size: 110%;
-        background: #fafafa;
-      }
-    `}</style>
   </div>
 );
